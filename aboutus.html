@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stylee.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  
+</head>
+<body>
+    <header>
+        <img src="LOGO.png" width="100px"  height="65px">
+        <div class="menu-btn"></div>
+        <div class="navigation">
+          <div class="navigation-items">
+            <a href="home.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="contactus.html">Contact Us</a>
+    </div>
+     </div>
+      </header>
+      <script type="text/javascript">
+        //javascript of responsive navigation menu
+        const menuBtn=document.querySelector(".menu-btn");
+        const navigation=document.querySelector(".navigation");
+    
+        menuBtn.addEventListener("click", () => {
+          menuBtn.classList.toggle("active");
+          navigation.classList.toggle("active");
+    
+        });
+    </script>
+   <section class="About">
+    <div class="heading">
+     
+      <h1>About US</h1>
+    </div>
+    <div class="containerr">
+     <div class="about-content">
+      <h2>Information Technology Infrastructure Management Services & Solutions</h2>
+      <p> We offer reliable end-to-end IT Infrastructure Management Services to automate your own IT Infrastructure with today’s needs and tomorrow’s readiness.
+        We implement and administer IT Infrastructure monitoring solutions and manage all your mission critical servers, network and security appliances for its availability, utilization,and more per your requirement.</p>
+      <button class="abo-button">Contact Us</button>
+      </div>
+    </div>
+     </section>

@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="stylee.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+  </head>
+<body>
+  <header>
+    <img src="LOGO.png" width="100px"  height="65px">
+    <div class="menu-btn"></div>
+    <div class="navigation">
+      <div class="navigation-items">
+        <a href="home.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+</div>
+ </div>
+  </header>
+  <section class="home">
+    <video class="video-slide active" src="v4.mp4" autoplay muted loop></video>
+    <div class="content active">
+      <h1>ITInfraAdmin</h1>
+      <p>ITInfraAdmin management services include software and hardware system design and configuration, installation, network infrastructure management, administration, as well as monitoring of databases, server hosting solutions, systems and network solutions. We develop and maintain cloud-hosted solutions, virtual private networks, help desk operation and maintenance, facility operations; and offers third-party system integration.</p>
+      <a href="#">Find Out More</a>
+    </div>
+    <div class="media-icons">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+     </div>
+  </section>
+  <script type="text/javascript">
+    //javascript of responsive navigation menu
+    const menuBtn=document.querySelector(".menu-btn");
+    const navigation=document.querySelector(".navigation");
+
+    menuBtn.addEventListener("click", () => {
+      menuBtn.classList.toggle("active");
+      navigation.classList.toggle("active");
+
+    });
+</script>
+<!------>
+<section class="main-container">
+  <h1>Our Services</h1>
+  <div class="tab-nav-bar">
+    <div class="tab-navigation">
+      <i class="uil uil-angle-left left-btn"></i>
+      <i class="uil uil-angle-right right-btn"></i>
+      <ul class="tab-menu">
+        <li class="tab-btn active">IT Infrastructure Monitoring</li>
+        <li class="tab-btn">Server Administration</li>
+        <li class="tab-btn">Cloud Computing Services</li>
+        <li class="tab-btn">Webserver Administration</li>
+        <li class="tab-btn">Data Base Administration</li>
+        <li class="tab-btn">Network Monitoring</li>
+        <li class="tab-btn">Network Management</li>
+      </ul>
+    </div>
+  </div>
+  <div class="tab-contant">
+    <div class="tab active">
+      <div class="row">
+        <div class="left-column">
+          <div class="img-card">
+            <img src="monitoring tools.png" alt="">
+          </div>
+       </div>
+       <div class="right-column">
+        <div class="info">
+          <h2 class="services">IT Infrastructure Monitoring</h2>
+          <div class="description">
+            <p>Implementation and administration of IT Infrastructure monitoring tools </p>
+            <p>>Graphite<br>
+              >Grafana<br>
+             >Nagios<br>
+              >Zabbix
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="row">
+        <div class="left-column">
+          <div class="img-card">
+            <img src="serveradm.jpeg" alt="">
+          </div>
+       </div>
+       <div class="right-column">
+        <div class="info">
+          <h2 class="services">Server Administration</h2>
+          <div class="description">
+            <p>Our experts will proactively work towards the server administration (Windows, Linux / UNIX, Virtualization and more). We take care of scheduled maintenance, OS Patching (Irrespective of OS), Anti-virus updates, and lot more, in the lean production hours after getting the Change Management approved from the CAB (Change Advisory Board).</p>
+            <p>>Backup management<br>
+              >Improved Operational Performance<br>
+              >Troubleshooting and Root cause analysis<br>
+             >Server Monitoring & Performance Management<br>
+              >Data Migration from Dedicated-Cloud and Cloud-Cloud Servers
+              </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="row">
+        <div class="left-column">
+          <div class="img-card">
+            <img src="cloudservices.png" alt="">
+          </div>
+       </div>
+       <div class="right-column">
+        <div class="info">
+          <h2 class="services">Cloud Computing Services</h2>
+          <div class="description">
+            <p>We work towards automating your own IT Infrastructure in the public cloud, for hosting your web applications, migrating your existing applications or even for a testing, on demand in the cloud Infrastructure.</p>
+            <p>>Amazon Web Services(AWS)<br>
+             >Microsoft Azure<br>
+              >VMware Cloud Administration</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="row">
+        <div class="left-column">
+          <div class="img-card">
+            <img src="wedserver-administration.gif" alt="">
+          </div>
+       </div>
+       <div class="right-column">
+        <div class="info">
+          <h2 class="services">Wedserver Administration</h2>
+          <div class="description">
+            <p>We do Web server administration activities that includes hosting  application on cloud Servers including Linux, Windows at reasonable prices. Our team will ensure your infrastructure is properly launched and maintained for optimal performance
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="row">
+        <div class="left-column">
+          <div class="img-card">
+            <img src="database ad.jpeg" alt="">
+          </div>
+       </div>
+       <div class="right-column">
+        <div class="info">
+          <h2 class="services">DataBase Administration</h2>
+          <div class="description">
+            <p>Our database administration team helps you to configure HA for your mission critical data base. Our certified team will house keep and administer the database to ensure the maximum availability of servers
+            </p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="row">
+        <div class="left-column">
+          <div class="img-card">
+            <img src="net monitoring.jpeg" alt="">
+          </div>
+       </div>
+       <div class="right-column">
+        <div class="info">
+          <h2 class="services">Network Monitoring</h2>
+          <div class="description">
+            <p>We monitor your entire network (like Mail Servers, Web Servers, Database Servers, backup solutions and their Resources Utilization, Routers, Switches, Firewall and many more) for outages and afford solution to fine tune your servers & network for outstanding performance.</p>
+            <p>>Round the clock monitoring throughout the Year<br>
+             >Proactive & reactive alert notifications<br>
+              >Real-time Bandwidth Protection<br>
+              >Monitoring and Alert response</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="tab">
+      <div class="row">
+        <div class="left-column">
+          <div class="img-card">
+            <img src="network management.png" alt="">
+          </div>
+       </div>
+       <div class="right-column">
+        <div class="info">
+          <h2 class="services">Network Management</h2>
+          <div class="description">
+            <p>
+              Our certified domain experts will categorize the network related issues rapidly and provide solution quickly. We provide 24 / 7 / 365 days of proactive monitoring services to facilitate keeping your network stable. We use to conduct Vulnerability Assessment on regular intervals and patch / fix the identified vulnerabilities to keep our network more secure. </p>
+              <p>>Support day-to-day operations<br>
+                >Support new implementations<br>
+                >Regular configuration backups<br>
+                >Rapid response for outages<br>
+                >Secured network</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+   </div>
+  </section>
+
+ <!-----------------------main java script-->
+  <script type="text/javascript">
+    const btnLeft = document.querySelector(".left-btn");
+    const btnRight = document.querySelector(".right-btn");
+    const tabMenu = document.querySelector(".tab-menu");
+
+    const IconVisibility = () =>{
+      let scrollLeftValue = Math.ceil(tabMenu.scrollLeft);
+      //console.log("1.",scrollLeftValue);
+      let scrollableWidth = tabMenu.scrollWidth - tabMenu.clientWidth;
+      //console.log("2.",scrollableWidth);
+
+      btnLeft.style.display = scrollLeftValue > 0 ? "block" : "none";
+      btnRight.style.display = scrollableWidth > scrollLeftValue ? "block" : "none";
+        }
+
+    btnRight.addEventListener("click", () => {
+      tabMenu.scrollLeft +=150;
+      //IconVisibility ();
+      setTimeout(() => IconVisibility (), 50);
+    });
+    btnLeft.addEventListener("click", () => {
+      tabMenu.scrollLeft -=150;
+      //IconVisibility ();
+      setTimeout(() => IconVisibility (), 50);
+    });
+    window.onload = function(){
+      btnRight.style.display = tabMenu.scrollWidth > tabMenu.clientWidth || tabMenu.scrollWidth >= window.innerWidth ? "block" : "none";
+      btnLeft.style.display = tabMenu.scrollWidth >= window.innerWidth ? "" : "none";
+    }
+    window.onresize = function(){
+      btnRight.style.display = tabMenu.scrollWidth > tabMenu.clientWidth || tabMenu.scrollWidth >= window.innerWidth ? "block" : "none";
+      btnLeft.style.display = tabMenu.scrollWidth >= window.innerWidth ? "" : "none";
+
+      let scrollLeftValue = Math.round(tabMenu.scrollLeft);
+
+      btnLeft.style.display = scrollLeftValue > 0 ? "block" :  "none";
+    }
+    //javascript to make the tab navigation draggable
+     let activeDrag = false;
+     tabMenu.addEventListener("mousemove", (drag) => {
+      if(!activeDrag) return;
+      tabMenu.scrollLeft -= drag.movementX;
+      IconVisibility();
+      tabMenu.classList.add("dragging");
+     });
+     document.addEventListener("mouseup", () => {
+      activeDrag = false;
+      tabMenu.classList.remove("dragging");
+     });
+
+     tabMenu.addEventListener("mousedown", () => {
+      activeDrag = true;
+     });
+     //javascript to view tab content on click button
+     const tabs = document.querySelectorAll(".tab");
+     const tabBtns = document.querySelectorAll(".tab-btn");
+     const tab_Nav = function(tabBtnClick){
+      tabBtns.forEach((tabBtn) => {
+        tabBtn.classList.remove("active");
+      });
+      tabs.forEach((tab) => {
+        tab.classList.remove("active");
+      });
+      tabBtns[tabBtnClick].classList.add("active");
+      tabs[tabBtnClick].classList.add("active");
+     }
+     tabBtns.forEach((tabBtn, i) => {
+      tabBtn.addEventListener("click", () => {
+        tab_Nav(i);
+      });
+
+     });
+  </script>
+<section class="footer">
+  <h4>About Us</h4>
+  <p>We offer reliable end-to-end IT Infrastructure Management Services to automate your own<br> IT Infrastructure with today’s needs and tomorrow’s readiness.
+    We implement and administer IT Infrastructure monitoring solutions and manage all your mission critical servers, <br>network and security appliances for its availability, utilization, and more per your requirement.</p>
+    <div class="iconss">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin"></i>
+   </div>
+</section>
+</body>
+</html>
+  
